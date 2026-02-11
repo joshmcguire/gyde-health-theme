@@ -1,0 +1,30 @@
+{
+	"landingPage": "/",
+	"preferredVersions": {
+		"php": "8.0",
+		"wp": "latest"
+	},
+	"steps": [
+		{
+			"step": "installPlugin",
+			"pluginData": {
+				"resource": "wordpress.org/plugins",
+				"slug": "advanced-custom-fields"
+			}
+		},
+		{
+			"step": "installTheme",
+			"themeData": {
+				"resource": "url",
+				"url": "https://github.com/joshmcguire/gyde-health-theme/releases/download/v1.0.0/gyde-health.zip"
+			},
+			"options": {
+				"activate": true
+			}
+		},
+		{
+			"step": "runPHP",
+			"code": "<?php require_once 'wordpress/wp-load.php'; $home = wp_insert_post(array('post_title' => 'Home', 'post_status' => 'publish', 'post_type' => 'page')); update_option('show_on_front', 'page'); update_option('page_on_front', $home); ?>"
+		}
+	]
+}
