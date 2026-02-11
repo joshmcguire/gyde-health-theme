@@ -1,0 +1,32 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Dependencies
+node_modules/
+vendor/
+
+# Section screenshot PNGs (not needed - only raw assets matter)
+assets/images/full-page.png
+assets/images/Hero-Section.png
+assets/images/Hero-Section-1.png
+assets/images/Our-Belief.png
+assets/images/Our-Model.png
+assets/images/The-Gyde-Team.png
+assets/images/Impact.png
+assets/images/Become-a-Gyde-Partner.png
+assets/images/Backed-by.png
+assets/images/Blog-Section.png
+assets/images/Contact-sections.png
+assets/images/Image.png
+assets/images/Frame-53.png
+assets/images/Frame-53-1.png
+assets/images/Frame-5.png
+assets/images/Frame-5-3.png
