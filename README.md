@@ -2,6 +2,16 @@
 
 A pixel-perfect WordPress theme for Gyde Health, built from Figma designs with full ACF (Advanced Custom Fields) integration for easy content management.
 
+## Live Demos
+
+| Demo | Link |
+|------|------|
+| **Static Frontend** | [View on GitHub Pages](https://joshmcguire.github.io/gyde-health-theme/) |
+| **Full WordPress Demo** | [Launch in WordPress Playground](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/joshmcguire/gyde-health-theme/master/playground-blueprint.json) |
+| **WordPress Admin** | [Launch Playground → wp-admin](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/joshmcguire/gyde-health-theme/master/playground-blueprint.json#{%22landingPage%22:%22/wp-admin/post.php?post=4&action=edit%22}) |
+
+> The WordPress Playground demo runs entirely in your browser -- no server needed. It auto-installs the theme, ACF plugin, and sets up the homepage. You're logged in as admin automatically.
+
 ## Features
 
 - **Pixel-perfect design** - Extracted directly from Figma with exact colors, typography, and spacing
